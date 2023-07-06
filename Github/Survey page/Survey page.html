@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizkit Survey</title>
+    <link rel="stylesheet" href="Survey page.css">
+</head>
+<body>
+    <h1 id="title">Bizkit Survey Form</h1>
+    <p id="description">Hello there.This is the Bizkit survey form that will help us know your preferences and any recommendations that you may like to see in the future. </p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name-label">Write your name:<input id="name" type="text" placeholder="Mwana Biashara" required /></label> 
+            <label for="email-label">Enter your Email Address:<input id="email" type="email" placeholder="email@mail.com"required /></label>
+            <label for="number-label">Enter your Phone Number:<input id="number" type="number" placeholder="0722000000" min="10" max="13" required/></label>
+        </fieldset>
+        <fieldset>
+            <label for="referrer">How did you hear about us?
+                <select id="referrer" name="referrer">
+                  <option value="">(select one)</option>
+                  <option value="1">From another person</option>
+                  <option value="2">Playstore/Appstore</option>
+                  <option value="3">Advertising</option>
+                  <option value="4">Other</option>
+                </select>
+                <label for="bio">Provide a feedback:
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like the transparency it gives to business operations..."></textarea>
+                  </label>
+                  <form id="survey-form">
+  <label for="name" id="name-label">Name: </label>
+  <input type="text" id="name" name="name" placeholder="Enter your name">
+
+  <label for="email" id="email-label">Email: </label>
+  <input type="email" id="email" name="email" placeholder="Enter your email">
+
+  <label for="number" id="number-label">Phone Number: </label>
+  <input type="tel" id="number" name="number" placeholder="Enter your phone number">
+<fieldset> 
+  <label for="dropdown" id="dropdown-label">Select an option: </label>
+  <select id="dropdown" name="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select>
+<p>Have you encountered any problems with the following options below? If so, please select one.</p>
+  <label id="radio-label">Select an option: </label>
+  <div>
+    <input type="radio" id="radio1" name="radio" value="option1">
+    <label for="radio1">User Login</label>
+  </div>
+  <div>
+    <input type="radio" id="radio2" name="radio" value="option2">
+    <label for="radio2">User Authentication</label>
+  </div>
+<p>Have you also encountered problems with your business management? If so, Please select one </p>
+  <label id="checkbox-label">Select options: </label>
+  <div>
+    <input type="checkbox" id="checkbox1" name="checkbox" value="option1">
+    <label for="checkbox1">Sales reporting</label>
+  </div>
+  <div>
+    <input type="checkbox" id="checkbox2" name="checkbox" value="option2">
+    <label for="checkbox2">Cashier management?</label>
+  </div>
+</form>
+</fieldset>
+         <button id="submit" type="submit" value="Submit" class="submit-button">Submit</button>
+         </fieldset>
+    </form>
+</body>
+</html>
