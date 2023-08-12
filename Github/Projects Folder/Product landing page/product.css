@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding-top: 120px;
+}
+
+section {
+    padding: 50px;
+}
+
+#video {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#email {
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
